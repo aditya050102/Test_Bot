@@ -14,6 +14,7 @@ var a = 1, b = 2;
 // Comment 2
 // Comment 3
 // Comment 4
+// comment 5
 
 var unusedVariable = 20;
 
@@ -65,8 +66,8 @@ debugger;
 var resultEval = eval("2 + 2");
 
 
-var longLine = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus nunc eget semper dictum. Duis non ante eu erat consequat posuere.";
+var longLine = "Lorem ipsum d             olor sit amet, consectetur adipiscing elit. Mauris dapibus nunc eget semper dictum. Duis non ante eu erat consequat posuere.";
 
 
-document.getElementById("exam         ple").style.color = "red";
+document.getElementById("exam              ple").style.color = "red";
 
