@@ -3,7 +3,7 @@ var x = 10;
 
 console.log("Hello, world!");
 
-var array = [1, 2, 3,];
+var NonCamelcaseArray = [1, 2, 3,];
 //
 // dding two number
 function sum(){
@@ -18,7 +18,7 @@ function sum(){
 // Comment 2
 // Comment 3
 // Comment 4
-// comment 5
+    // comment 5
 
 var unusedVariable = 20;
 
@@ -49,8 +49,6 @@ setInterval(function() {
   console.log("Interval");
 }, 1000);
 
-
-var [first, second, third] = numbers;
 
 
 function sumAll(...args) {
