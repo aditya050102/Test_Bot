@@ -3,21 +3,25 @@ var x = 10;
 
 console.log("Hello, world!");
 
-var array = [1, 2, 3,];
+var NonCamelcaseArray = [1, 2, 3,];
+//
+// dding two number
+function sum(){
+
+}
 
 
 
-var a = 1, b = 2;
 
 // Excessive comments
 // Comment 1
 // Comment 2
 // Comment 3
 // Comment 4
+    // comment 5
 
 var unusedVariable = 20;
 
-var result = x > 0 ? "Positive" : (x < 0 ? "Negative" : "Zero");
 
 for (var i = 0; i < 10; i++) {
   setTimeout(function() {
@@ -37,10 +41,6 @@ for (var i = 0; i < numbers.length; i++) {
 }
 
 
-var square = function(x) {
-  return x * x;
-};
-
 
 var sum = new Function('a', 'b', 'return a + b');
 
@@ -50,11 +50,6 @@ setInterval(function() {
 }, 1000);
 
 
-var [first, second, third] = numbers;
-
-
-var value = 10 + "5";
-
 
 function sumAll(...args) {
   return args.reduce((acc, val) => acc + val, 0);
@@ -62,11 +57,8 @@ function sumAll(...args) {
 
 debugger;
 
-var resultEval = eval("2 + 2");
-
-
 var longLine = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus nunc eget semper dictum. Duis non ante eu erat consequat posuere.";
 
 
-document.getElementById("exam         ple").style.color = "red";
+document.getElementById("examaple").style.color = "red";
 
